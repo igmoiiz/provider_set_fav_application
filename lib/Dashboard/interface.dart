@@ -41,7 +41,7 @@ class _InterfacePageState extends State<InterfacePage> {
             onTap: () {
               Flexify.go(
                 const FavoriteList(),
-                animation: FlexifyRouteAnimations.fade,
+                animation: FlexifyRouteAnimations.blur,
                 animationDuration: const Duration(milliseconds: 500),
               );
             },
